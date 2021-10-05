@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #582844;
+  color: #ffb6d1;
+  margin-top: 100px;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 35px;
+  width: 100%;
+  border: 2px solid rgb(58, 247, 58);
+  border-radius: 3px;
+}
+
+.container-box {
+  justify-content: space-around;
+  margin: 0 auto;
+  display: flex;
+  padding: 5px;
+}
+
+.input {
+  margin: 5px;
+  border-radius: 3px;
+  text-align: center;
+  border: none;
+  height: 35px;
+  background-color: rgb(182, 189, 189);
+}
+
+.btn {
+  background-color: #bb5379;
+}
+
+.box {
+  width: 85px;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .container-box,
+  .input {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* 
+.color1 {color: #582844;} fundo
+.color2 {color: #7f385a;}
+.color3 {color: #bb5379;}
+.color4 {color: #ff7fa1;} borda
+.color5 {color: #ffb6d1;} letra
+*/

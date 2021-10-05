@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tempo Vivido</title>
+  </head>
+
+  <body>
+    <form class="container">
+      <h1>Calculadora de vida</h1>
+      <div class="container-box">
+        <input class="input-group input mb-3" name="day" placeholder="Dia" />
+        <input class="input-group input mb-3" name="month" placeholder="Mês" />
+        <input class="input-group input mb-3" name="year" placeholder="Ano" />
+        <input class="input-group input mb-3" name="hrs" placeholder="Hora" />
+      </div>
+      <div class="box">
+        <select class="input-group input mb-3" name="ampm">
+          <option selected>AM</option>
+          <option>PM</option>
+        </select>
+
+        <input
+          class="btn mb-3 input"
+          name="start"
+          onclick="run()"
+          type="button"
+          value="Calcular "
+        />
+      </div>
+
+      <div class="container-box">
+        <div>
+          <p>Sua idade</p>
+          <input name="age" class="input input-group mb-3" />
+        </div>
+        <div>
+          <p>Meses de vida</p>
+          <input class="input input-group mb-3" name="months" />
+        </div>
+        <div>
+          <p>Em semanas:</p>
+          <input name="weeks" class="input input-group mb-3" />
+        </div>
+      </div>
+
+      <div class="container-box">
+        <div>
+          <p>Em dias:</p>
+          <input class="input input-group mb-3" name="answer" />
+        </div>
+        <div>
+          <p>Em horas:</p>
+          <input class="input input-group mb-3" name="hours" />
+        </div>
+        <div>
+          <p>Em minutos:</p>
+          <input class="input input-group mb-3" name="min" />
+        </div>
+      </div>
+
+      <div class="container-box">
+        <div>
+          <p>Em segundos:</p>
+          <input class="input input-group mb-3" name="sec" />
+        </div>
+
+        <div>
+          <p>Em milissegundos:</p>
+          <input class="input input-group mb-3" name="milli" />
+        </div>
+        <div>
+          <p>Próximo aniversário:</p>
+          <input class="input input-group mb-3" name="bday" />
+        </div>
+      </div>
+      <div>
+        <p>
+          Amigos, aproveitem cada segundo como se fosse o último, amando,
+          desejando sempre o bem para os outros, nada nessa vida tem mais valor
+          e mais poder do que o amor, que ele esteja sempre presente em sua vida
+          e que ela seja longa e muito feliz.
+        </p>
+        <p>“Quem mata o tempo não é assassino: é suicida.”</p>
+      </div>
+
+      <div id="h">
+        <table>
+          <tr></tr>
+        </table>
+      </div>
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
