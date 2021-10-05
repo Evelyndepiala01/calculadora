@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #582844;
-  color: #ffb6d1;
+  background-color: #1e2248;
+  color: #6e4c98;
   margin-top: 100px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .btn {
-  background-color: #bb5379;
+  background-color: #b269d0;
 }
 
 .box {
@@ -54,9 +54,11 @@ body {
 }
 
 /* 
-.color1 {color: #582844;} fundo
-.color2 {color: #7f385a;}
-.color3 {color: #bb5379;}
-.color4 {color: #ff7fa1;} borda
-.color5 {color: #ffb6d1;} letra
+
+
+.color1 {color: #1e2248;}fundo
+.color2 {color: #3e346b;}
+.color3 {color: #6e4c98;}
+.color4 {color: #b269d0;}letra
+.color5 {color: #ff8aff;}borda
 */
